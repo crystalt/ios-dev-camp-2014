@@ -11,6 +11,7 @@
 #import "Score.h"
 #import <TapSenseAds/TapSenseAds.h>
 #import <TapSenseAds/TapSenseAdView.h>
+#import <FacebookSDK/FacebookSDK.h>
 
 #define TS_BANNER_AD_UNIT_ID @"540776bce4b02053be050e2d"
 
@@ -36,6 +37,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    FBLoginView *loginView = [[FBLoginView alloc] init];
+    loginView.center = self.view.center;
+    [self.view addSubview:loginView];
+    
+    
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
     
     [[NSNotificationCenter defaultCenter] addObserver:self

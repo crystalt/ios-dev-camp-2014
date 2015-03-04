@@ -60,6 +60,7 @@
 		BACC2DFC19B795E9004DDD91 /* TapSenseAds_Volume_On.png in Resources */ = {isa = PBXBuildFile; fileRef = BACC2DEF19B795E9004DDD91 /* TapSenseAds_Volume_On.png */; };
 		BACC2DFD19B795E9004DDD91 /* TS_SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BACC2DF019B795E9004DDD91 /* TS_SVWebViewController.bundle */; };
 		BACC2DFE19B795E9004DDD91 /* TapSenseAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC2DF119B795E9004DDD91 /* TapSenseAds.framework */; };
+		BE08A65719D5E99E00898DC1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE08A65619D5E99E00898DC1 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +141,7 @@
 		BACC2DEF19B795E9004DDD91 /* TapSenseAds_Volume_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TapSenseAds_Volume_On.png; sourceTree = "<group>"; };
 		BACC2DF019B795E9004DDD91 /* TS_SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TS_SVWebViewController.bundle; sourceTree = "<group>"; };
 		BACC2DF119B795E9004DDD91 /* TapSenseAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TapSenseAds.framework; sourceTree = "<group>"; };
+		BE08A65619D5E99E00898DC1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				82C6A09718A6F53400FEBE9B /* UIKit.framework in Frameworks */,
 				BACC2DFE19B795E9004DDD91 /* TapSenseAds.framework in Frameworks */,
 				82C6A09318A6F53400FEBE9B /* Foundation.framework in Frameworks */,
+				BE08A65719D5E99E00898DC1 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +228,7 @@
 		82C6A09118A6F53400FEBE9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE08A65619D5E99E00898DC1 /* FacebookSDK.framework */,
 				BACC2DE019B795E9004DDD91 /* TapSenseAds */,
 				82C6A0CA18A6FF7400FEBE9B /* SpriteKit.framework */,
 				82C6A09218A6F53400FEBE9B /* Foundation.framework */,
